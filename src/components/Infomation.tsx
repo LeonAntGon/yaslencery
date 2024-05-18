@@ -16,7 +16,7 @@ export default function Information(){
                 alt="Delivery"
                 width={80}
                 height={80}/>
-                <h3>Envíos con cadete</h3>
+                <h3 className="text-[12px]">Envíos con cadete</h3>
             </div>
 
             <div>
@@ -26,7 +26,7 @@ export default function Information(){
                 alt="Delivery"
                 width={70}
                 height={70}/>
-                <h3>Atención 24/7</h3>
+                <h3 className="text-[12px]">Atención 24/7</h3>
             </div>
             </div>
             
