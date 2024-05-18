@@ -47,20 +47,20 @@ export default function Nav() {
                 <div className="grid grid-rows-2 gap-2 pt-[68px] pl-6">
 
                     <div className='pb-2'>
-                        <Link href="/"><p onClick={toggleDivVisibility} className='text-white text-xs font-stylish'>INICIO</p></Link>
+                        <Link href="/"><p onClick={toggleDivVisibility} className='text-white text-xs hover:text-red-200'>INICIO</p></Link>
                     </div>
                         
                     <div className='pb-2'>
-                        <Link href="/conjuntos"><p onClick={toggleDivVisibility} className='text-white text-xs '>CONJUNTOS</p></Link>
+                        <Link href="/conjuntos"><p onClick={toggleDivVisibility} className='text-white text-xs hover:text-red-200'>CONJUNTOS</p></Link>
                     </div>
                     <div className='pb-2'>
-                        <Link href="/tops"><p onClick={toggleDivVisibility} className='text-white text-xs '>TOP DEPORTIVOS</p></Link>
+                        <Link href="/tops"><p onClick={toggleDivVisibility} className='text-white text-xs hover:text-red-200'>TOP DEPORTIVOS</p></Link>
                     </div>
                     <div className='pb-2'>
-                        <Link href="/bombis"><p onClick={toggleDivVisibility} className='text-white text-xs '>BOMBIS</p></Link>
+                        <Link href="/bombis"><p onClick={toggleDivVisibility} className='text-white text-xs hover:text-red-200'>BOMBIS</p></Link>
                     </div>
                     <div className='pb-2'>
-                        <Link href="/herotico"><p onClick={toggleDivVisibility} className='text-white text-xs '>HEROTICO</p></Link>
+                        <Link href="/herotico"><p onClick={toggleDivVisibility} className='text-white text-xs hover:text-red-200'>HEROTICO</p></Link>
                     </div>
                         
                     </div>

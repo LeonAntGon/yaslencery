@@ -9,12 +9,12 @@ export default function App() {
   const [selectedKeys, setSelectedKeys] = React.useState<Selection>(new Set(["1"]));
   
   
-  const answerone ="Soy de la provincia de las Talitas, departamento de Tafí Viejo provincia de Tucumán.";
+  const answerone ="Soy de la localidad de las Talitas, departamento de Tafí Viejo provincia de Tucumán.";
   const answertwo ="No cuento con local, realizo todos mis pedidos de manera online.";
   const answerthree ="Realizo pedidos en los siguientes puntos de encuentro: \n Facultad de Educación Fisica UNT - Facultad de Filosofía y Letras ";
 
   return (
-    <div className="mx-4 my-8 text-medium">
+    <section className="mx-4 my-8 md:mx-[50px] text-medium">
     <div className="text-center text-[16px] font-bold">Preguntas frecuentes</div>
 
     <Accordion
@@ -31,6 +31,6 @@ export default function App() {
         {answerthree}
       </AccordionItem>
     </Accordion>
-    </div>
+    </section>
   );
 }

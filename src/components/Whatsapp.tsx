@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import WspLogo from './assets/images/whatsapp.png';
+import WspLogo from './assets/images/media/whatsapp.png';
 
 export default function Whatsapp() {
     return( 
