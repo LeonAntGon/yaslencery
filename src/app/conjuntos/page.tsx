@@ -16,9 +16,9 @@ export default function Conjuntos(){
           <Titlesections text="Conjuntos"/>
         </header>
         
-        <section className="flex flex-wrap justify-center gap-2 gap-y-[100px] mx-[10px] h-auto">
+        <section className="flex flex-wrap justify-center gap-2 gap-y-[30px] mx-[10px] my-8 h-auto">
                 {products.map((product) => (
-                    <div className='inline-block min-w-[100px] min-h-[120px] max-w-[160px] mt-8' key={product.id}>
+                    <div className='inline-block min-w-[100px] min-h-[120px] max-w-[160px]' key={product.id}>
                          <Image 
                           className="w-full h-full rounded-md"
                           src={product.img.src}

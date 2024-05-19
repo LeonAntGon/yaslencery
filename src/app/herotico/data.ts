@@ -1,6 +1,7 @@
 import { StaticImageData } from "next/dist/shared/lib/image-external";
-import tirantesred from "./images/tirantesred.jpg";
 
+import tirantesred from "./images/tirantesred.jpg";
+import cancan from "./images/cancan3500.jpg"
 
 
 
@@ -20,5 +21,12 @@ export const products= [
         brand: " ",
         price: 1900,
     },
+    {
+        id: 2,
+        img: cancan,
+        title: "Cancan herotico",
+        brand: " ",
+        price: 3500,
+    }
 
 ] as const;
