@@ -1,10 +1,10 @@
-import Mainart from "@/components/Mainart";
-import Nav from "@/components/Nav";
+import Mainart from "@/src/components/Mainart";
+import Nav from "@/src/components/Nav";
 import logoresp from '../components/assets/images/hero/logoresponsive.png';
 import Image from "next/image";
-import Footer from "@/components/Footer";
-import Carrousel from "@/components/Carrousel";
-import Information from "@/components/Infomation";
+import Footer from "@/src/components/Footer";
+import Carrousel from "@/src/components/Carrousel";
+import Information from "@/src/components/Infomation";
 
 export default function Home() {
   return (

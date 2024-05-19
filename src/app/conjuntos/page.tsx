@@ -1,8 +1,8 @@
 "use client"
 
-import Nav from "@/components/Nav";
-import Titlesections from "@/components/Titlesections";
-import Footer from "@/components/Footer";
+import Nav from "@/src/components/Nav";
+import Titlesections from "@/src/components/Titlesections";
+import Footer from "@/src/components/Footer";
 import { products } from "./data";
 import { Image } from "@nextui-org/react";
 

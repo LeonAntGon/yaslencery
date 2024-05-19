@@ -1,9 +1,9 @@
 import { StaticImageData } from "next/dist/shared/lib/image-external";
 
 
-import toptiras  from "./images/topcontiras.jpg";
-import topdlirio from "./images/topdlirio.jpg";
-import topvone from "./images/topvmood.jpg";
+import toptiras  from "@/public/tops/topcontiras.webp"
+import topdlirio from "@/public/tops/topdlirio.webp";
+import topvone from "@/public/tops/topvmood.webp";
 
 interface products {
     id: number;
