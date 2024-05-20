@@ -1,13 +1,13 @@
 import { StaticImageData } from "next/dist/shared/lib/image-external";
 
-import algodon from "./images/algodonlalu.jpg";
-import redalgodon from './images/Rojo T90 de algodon - Agostina.jpg';
-import aquaalg from './images/Aqua T90 de algodon - Cloe jazmín.jpg';
-import whitealg from './images/blanco T95 algodon - Agostina - 4900.jpg';
-import encajymicrof from './images/Encaje y microfibra - New sensation.jpg';
-import blackalg from './images/negro T95 de algodon - new sensation - 6000.jpg';
-import blackenc from './images/negro T100 encaje sin arco - New sensation.jpg';
-import melifera from "./images/melifera.jpg";
+import algodon from "@/public/conjuntos/algodonlalu.jpg";
+import redalgodon from '@/public/conjuntos/RojoT90algodon-Agostina.jpg';
+import aquaalg from '@/public/conjuntos/AquaT90dealgodon-Cloejazmín.jpg';
+import whitealg from '@/public/conjuntos/blanco95newsensation.jpg';
+import encajymicrof from '@/public/conjuntos/Encajeymicrofibra-Newsensation.jpg';
+import blackalg from '@/public/conjuntos/blancoT95algodon-Agostina-4900.jpg';
+import blackenc from '@/public/conjuntos/negrot100encajenoarco.jpg';
+import melifera from "@/public/conjuntos/melifera.jpg";
 
 interface products {
     id: number;
@@ -29,22 +29,22 @@ export const products= [
     {
         id: 2,
         img: blackalg,
-        title: "Conjunto de algodón negro - Talle 95",
-        brand: "New sensation",
+        title: "Conjunto de algodón negro",
+        brand: " Talle 95 -New sensation",
         price: 6000,
     },
     {
         id: 3,
         img: aquaalg,
-        title: "Conjunto de algodón aqua Talle 90 ",
-        brand: "Cloe jazmín",
+        title: "Conjunto de algodón aqua",
+        brand: "Talle 90 - Cloe jazmín",
         price: " ",
     },
     {
         id: 4,
         img: whitealg,
-        title: "Conjunto de algodón blanco Talle 95",
-        brand: "Agostina",
+        title: "Conjunto de algodón blanco",
+        brand: "Talle 95 - Agostina",
         price: 4900,
     },
     
@@ -58,22 +58,22 @@ export const products= [
     {
         id: 6,
         img: redalgodon,
-        title: "Conjunto de algodón rojo Talle 90",
-        brand: "Lalu",
-        price: 6800,
+        title: "Conjunto de algodón rojo",
+        brand: "Talle 90 - Agostina",
+        price: 8000,
     },
     {
         id: 7,
         img: encajymicrof,
         title: "Conjunto de encaje y microfibra",
         brand: "New sensation",
-        price: " ",
+        price: 5800,
     },
     {
         id: 8,
         img: melifera,
-        title: "Conjunto talle-115",
+        title: "Conjunto talle 110",
         brand: "Melifera",
-        price: 6800,
+        price: 8000,
     },
 ] as const;

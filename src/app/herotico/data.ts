@@ -1,7 +1,7 @@
 import { StaticImageData } from "next/dist/shared/lib/image-external";
 
-import tirantesred from "./images/tirantesred.jpg";
-import cancan from "./images/cancan3500.jpg"
+import tirantesred from "@/public/herotico/tirantesred.jpg";
+import cancan from "@/public/herotico/cancan3500.jpg"
 
 
 
