@@ -3,6 +3,7 @@ import Nav from "@/src/components/Nav";
 import Titlesections from "@/src/components/Titlesections";
 import { products } from "./data";
 import { Image } from "@nextui-org/react";
+import { useCallback } from 'react';
 
 
 export default function Tops(){
@@ -30,6 +31,7 @@ export default function Tops(){
                     </div>
                 ))}
             </section>
+
         <Footer/>
         </>
     )

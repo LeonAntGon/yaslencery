@@ -1,8 +1,8 @@
 import { StaticImageData } from "next/dist/shared/lib/image-external";
 
 
-import toptiras  from "@/public/tops/topcontiras.jpg"
-import topdlirio from "@/public/tops/topdlirio.jpg";
+import toptiras  from "@/public/tops/topcontirass.png"
+import topdlirio from "@/public/tops/topdlirioo.png";
 import topvone from "@/public/tops/topvmood.jpg";
 
 interface products {
