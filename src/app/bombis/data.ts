@@ -1,10 +1,10 @@
 import { StaticImageData } from "next/dist/shared/lib/image-external";
 
-import packxthree from "@/public/bombis/colalespackx3.jpg";
-import regulableone from "@/public/bombis/regulables.jpg";
+import packxthree from "@/public/bombis/colalespackx3.png";
+import regulableone from "@/public/bombis/regulables.png";
 import vedentinamodal from "@/public/bombis/vedentinatelmodal.png";
 import combovedcolreg from "@/public/bombis/lostresproductos.png";
-import culoteencaje from '@/public/bombis/culote_encajesodet.jpg';
+import culoteencaje from '@/public/bombis/culote_encajesodet.png';
 
 
 interface products {
